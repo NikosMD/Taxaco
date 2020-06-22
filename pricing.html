@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Pricing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:title" content="Taxaco" />
+    <meta property="og:type" content=" Audit, Taxes, Accounting" />
+    <meta property="og:url" content="http://taxaco.md" />
+    <meta property="og:image" content="img/logo.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/fav-icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/fav-icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/fav-icon/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"  href="css/carousel.css" rel="stylesheet" type="text/css" >
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+</head>
+<body id="page-top">
+<nav class="navbar navbar-expand-lg fixed-top " id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="index.html"><img src="img/logo.png"  alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="index.html"  data-localizable="menu-home"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="index.html#phantom" data-localizable="menu-about"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="services.html" data-localizable="menu-services"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="" data-localizable="menu-pricing"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="news.html" data-localizable="menu-news"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="contacts.html" data-localizable="menu-contacts"></a>
+                </li>
+                <li class="nav-item languages">
+                    <a href="#" class="btn-switch-language mybtn  nav-link" data-lang="ro">RO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="btn-switch-language mybtn nav-link" data-lang="ru">RU</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="btn-switch-language mybtn nav-link" data-lang="en">EN</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section>
+    <div class="col-12 services-main">
+        <p class="services-main-label" data-localizable="pricing-main-label"></p>
+    </div>
+</section>
+
+<section class="Calculator">
+    <div class="container-presentation">
+        <form role="form" id="calcForm" oninput="calc()">
+            <div class="container-fluid">
+                <div class="form-row">
+                    <div class="form-group col-6">
+                        <label for="type" class="form-notes-calc-mini" data-localizable="form-type"></label>
+                        <select  class="form-control" id="type">
+                            <option type=""></option>
+                            <option data-localizable="calc-form-type-label-1"></option>
+                            <option data-localizable="calc-form-type-label-2"></option>
+                            <option data-localizable="calc-form-type-label-3"></option>
+                            <option data-localizable="calc-form-type-label-4"></option>
+                            <option data-localizable="calc-form-type-label-5"></option>
+                            <option data-localizable="calc-form-type-label-6"></option>
+                        </select>
+                    </div>
+                    <div class="form-group col-6">
+                        <label for="vat" class="form-notes-calc-mini" data-localizable="form-vat"></label>
+                        <select class="form-control" id="vat">
+                            <option type=""></option>
+                            <option value="vat-1" data-localizable="calc-form-vat-label-1"></option>
+                            <option value="vat-2" data-localizable="calc-form-vat-label-2"></option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="form-row">
+                    <div class="form-group col-md-6 xs-12">
+                        <div class="form-group">
+                            <label for="declaration" class="form-notes-calc-mini" data-localizable="form-declaration"></label>
+                            <input type="number" class="form-control" id="declaration" min="0">
+                        </div>
+                    </div>
+
+                    <div class="form-group col-md-6 xs-12">
+                        <div class="form-group">
+                            <label for="staff" class="form-notes-calc-mini" data-localizable="form-staff"></label>
+                            <input type="number" class="form-control" id="staff" min="0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="form-row">
+                    <div class="form-group col-md-6 xs-12">
+                        <div class="form-group">
+                            <label for="security" class="form-notes-calc-mini" data-localizable="form-security"></label>
+                            <input type="number" class="form-control" id="security" min="0">
+                        </div>
+                    </div>
+                    <div class="form-group col-md-6 xs-12">
+                        <div class="form-group">
+                            <label for="shop" class="form-notes-calc-mini" data-localizable="form-shop"></label>
+                            <input type="number" class="form-control" id="shop" min="0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="form-row">
+                    <div class="form-group col-md-6 xs-12">
+                        <div class="form-group">
+                            <label for="num-dec" class="form-notes-calc-mini" data-localizable="form-import-declaration-number"></label>
+                            <input type="number" class="form-control" id="num-dec" min="0">
+                        </div>
+                    </div>
+
+                    <div class="form-group col-md-6 xs-12">
+                        <div class="form-group">
+                            <label for="pos-dec" class="form-notes-calc-mini" data-localizable="form-import-declaration-positions"></label>
+                            <input type="number" class="form-control" id="pos-dec" min="0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="form-row">
+                    <div class="form-group col-md-6 xs-12">
+                        <div class="form-group">
+                            <label for="invoice" class="form-notes-calc-mini" data-localizable="form-invoice"></label>
+                            <input type="number" class="form-control" id="invoice" min="0">
+                        </div>
+                    </div>
+                    <div class="form-group col-md-6 xs-12">
+                        <div class="form-group">
+                            <label for="payment" class="form-notes-calc-mini" data-localizable="form-payment"></label>
+                            <input type="number" class="form-control" id="payment" min="0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                  <p class="form-notes-calc-final" data-localizable="price-result-1"></p>
+                <output class="money money-output" id="result1"></output><span class="money" data-localizable="money-month"></span>
+            </div>
+            <div class="col-12" style="margin-top: 10px">
+                <div class="container-fluid">
+                    <div class="row">
+                        <p class="form-notes-calc-final" data-localizable="price-result-2"></p>
+                            <input type="checkbox" id="money-1"  class="input-money">
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row">
+                        <output class="money money-output money-add" id="result2" style = "display: none;"></output><span id="result2-euro"  class="money-add" style = "display: none;" > &#8364;</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                    <label for="tax" class="form-notes-calc-final" data-localizable="price-result-3"></label>
+                        <select class="form-control" id="tax">
+                            <option type=""></option>
+                            <option value="1" data-localizable="tax-1"></option>
+                            <option value="2" data-localizable="tax-2" ></option>
+                            <option value="3" data-localizable="tax-3" ></option>
+                        </select>
+            </div>
+            <div class="col-12">
+                <div class="container-fluid">
+                    <div class="row">
+                        <output class="money money-output money-add-2" id="march50" style = "display: none;"></output><span id="march50-euro"  class="money-add-2" style = "display: none;" > &#8364;</span>
+                        <output class="money money-output money-add-2" id="march100" style = "display: none;"></output><span id="march100-euro" class="money-add-2" style = "display: none;" > &#8364;</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12" style="padding-bottom: 15px">
+                <p class="form-notes-calc-final" data-localizable="price-30"></p>
+                <output class="money money-output" id="year-30"></output><span class="money"> &#8364;</span>
+            </div>
+            <hr>
+            <div class="col-12">
+                <p class="form-notes-calc" data-localizable="price-warning" style="color: red"></p>
+            </div>
+        </form>
+    </div>
+</section>
+
+<section>
+    <div class="col-12 strip"></div>
+</section>
+
+<footer>
+    <div class="container-presentation">
+        <div class="container-fluid">
+            <div class="row justify-content-between">
+
+                <div class="col-md-5">
+                    <p class="footer-label-1" data-localizable="footer-label-1"></p>
+                    <hr>
+                    <div class="container-fluid">
+                        <div class="row address">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="address-lines">
+                                <p class="address-text" data-localizable="address-footer"></p>
+                                <p class="address-text" data-localizable="address-footer-plus"></p>
+                            </div>
+                        </div>
+                        <div class="row phone">
+                            <i class="fas fa-phone"></i>
+                            <div class="address-lines">
+                                <a href="tel:37322211819"><p class="address-text"  data-localizable="phone-footer"></p></a>
+                                <a href="tel:37322855603"><p class="address-text" data-localizable="phone-footer-plus"></p></a>
+                            </div>
+                        </div>
+                        <div class="row mail">
+                            <i class="far fa-envelope"></i>
+                            <div class="mail-footer">
+                                <a href="mailto:taxaco@taxaco.biz"><p class="address-text" data-localizable="mail-footer"></p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <p class="footer-label-1" data-localizable="footer-label-2"></p>
+                    <hr>
+                    <form role="form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="name" class="form-notes" data-localizable="form-name"></label>
+                                <input type="text" class="form-control" id="name" >
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="surname" class="form-notes" data-localizable="form-surname"></label>
+                                <input type="text" class="form-control" id="surname" >
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="email" class="form-notes" data-localizable="form-email"></label>
+                                <input type="email" class="form-control" id="email" >
+                            </div>
+                            <div class="form-group col-md-6" >
+                                <label for="phone" class="form-notes" data-localizable="form-phone"></label>
+                                <input type="number" class="form-control" id="phone" >
+                            </div>
+                        </div>
+                        <button id="form-submit" type="submit" class="btn  btnform"><p data-localizable="main-send"></p></button>
+                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                        <div class="clearfix"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<script src="js/scroll.js"></script>
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/lang-control.js"></script>
+<script src="js/validator.min.js"></script>
+<script src="js/calculator.js"></script>
+<script src="js/contact.js"></script>
+<script src="js/money-select.js"></script>
+
+<script src="js/money-change.js"></script>
+
+<script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

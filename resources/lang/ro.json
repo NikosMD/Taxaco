@@ -1,0 +1,126 @@
+{
+  "menu-home":"Acasă",
+  "menu-about":"Despre noi",
+  "menu-services":"Servicii",
+  "menu-news":"Noutăți",
+  "menu-contacts":"Contacte",
+  "menu-pricing":"Tarife",
+
+  "main-mini-news-label-1":"Modificări in legislație",
+  "main-mini-news-label-2":"Reguli noi",
+  "main-mini-news-label-3":"Aflați mai multe...",
+
+  "about-title":"Despre noi",
+  "about-text-1":"Noi, Tx & A Co / ATA CONSULT, cu experiența vastă în servirea clienților locali și internaționali, vă va ajuta să înțelegeți condițiile de desfășurare a afacerilor în Moldova și vă va ajuta în crearea și gestionarea companiei dumneavoastră.",
+  "about-text-2":"Oferim o gamă largă de servicii complete și profesionale, inclusiv servicii de contabilitate, audit, fiscalitate și consultanță în afaceri pentru clienții noștri, atât pentru companiile locale mici, cât și pentru filialele companiilor internaționale de pe piața moldovenească.",
+
+  "presentation-main-1":"Introducerea TX & A Co SRL",
+  "presentation-main-2":"Prezentarea unei companii de audit ATA Consult SRL",
+  "text-presentation-1-label-1":"Tx & A Co SRL a fost înființată în iulie 2006 la inițiativa a doi parteneri cu cunoștințe aprofundate și o vastă experiență în domeniul contabilității, auditului și fiscalității.",
+  "text-presentation-1-label-2":"Cine suntem noi? TX & A Co SRL este o companie locală care lucrează în domeniul consultanței și contabilității și se străduiește să transforme cunoștințele noastre în beneficiile reale pentru clienții noștri.",
+  "text-presentation-1-label-3":"Ce înseamnă TX & A Co? TX & A Co este o abreviere formată din primele litere ale cuvintelor din limba engleză - Impozite și contabilitate (impozite și contabilitate).",
+  "text-presentation-1-label-4":"Ce oferim? TX & A Co SRL oferă clienților săi o gamă largă de servicii de consultanță și contabilitate care îi permit să își administreze și să-și controleze în mod eficient afacerea pentru obținerea și creșterea profiturilor.",
+  "text-presentation-2-label-1":"Compania de audit ATA Consult SRL a fost infiintata in februarie 2012 si a primit o licenta pentru activitatile in domeniul auditului general nr. A MMII 040277. In prezent, compania are doi auditori autorizati, detinatori de certificate internationale CIPA / ACCA cu experienta de peste 4 ani.",
+  "text-presentation-2-label-2":"Cine suntem noi? ATA Consult SRL este o companie locală care activează pe piața serviciilor generale de audit pentru rapoarte financiare și servicii de audit.",
+  "text-presentation-2-label-3":"Ce înseamnă ATA? ATA este o abreviere formată din primele litere ale cuvintelor din limba engleză - Audit, Taxes, Accounting (Audit, Taxe, Contabilitate).",
+
+  "clients-title":"Clienții noștri",
+
+  "footer-label-1":"Contacte",
+  "footer-label-2":"Contactați-ne",
+  "address-footer":"str. Calea Iesilor 8, etaj 3, birou 9a,",
+  "address-footer-plus":"Chisinau, MD-2069, Moldova",
+  "phone-footer":"tel : +373 (22) 21 18 19 ",
+  "phone-footer-plus":"fax : +373 (22) 85 56 03",
+  "mail-footer":"taxaco@taxaco.biz",
+  "form-name":"Prenume",
+  "form-surname":"Nume",
+  "form-email":"E-mail",
+  "form-phone":"Telefon",
+  "services-main-label":"Servicii",
+  "main-send":"Trimite",
+
+
+  "card-1-main":"Contabilitate",
+  "card-2-main":"Audit",
+  "card-3-main":"Ajutorul fiscal",
+  "card-4-main":"Personal",
+  "card-5-main":"Înregistrarea / lichidarea societăților",
+  "card-6-main":"Alte",
+
+  "card-1-label-1":"Organizarea, întreținerea și restaurarea",
+  "card-1-label-2":"Consultări privind întocmirea documentelor contabile primare",
+  "card-1-label-3":"Asistență în aplicarea standardelor naționale",
+  "card-1-label-4":"Contabilitate - ajuta la aplicarea Standardelor Internaționale de Raportare Financiară (IFRS)",
+  "card-1-label-5":"Elaborarea, revizuirea și actualizarea politicilor contabile",
+  "card-2-label-1":"Audit general",
+  "card-2-label-2":"Proceduri convenite",
+  "card-2-label-3":"Compilarea situațiilor financiare",
+  "card-3-label-1":"Calcularea impozitelor și întocmirea rapoartelor fiscale",
+  "card-3-label-2":"Planificare fiscală și optimizare",
+  "card-3-label-3":"Consultări privind impozitarea",
+  "card-4-label-1":"Organizarea de contabilitate de personal",
+  "card-4-label-2":"Organizarea și documentarea protecției și siguranței muncii",
+  "card-5-label-1":"Înregistrarea unei persoane juridice",
+  "card-5-label-2":"Modificările aduse actului constitutiv",
+  "card-5-label-3":"Lichidarea persoanei juridice",
+  "card-6-label-1":"Servicii de due diligence",
+  "card-6-label-2":"Analiza activităților financiare și economice",
+  "card-6-label-3":"Elaborarea unui plan de afaceri",
+
+  "contacts-main-label":"Contacte",
+
+  "news-main-label":"Noutăți",
+  "download-pdf":"Pentru a vizualiza fișierul descărcati",
+  "news-label-1":"Modificări in legislație",
+  "news-label-2":"",
+  "news-label-3":"",
+  "news-label-4":"",
+
+
+  "pricing-main-label":"Tarife",
+  "form-type":"Tipul de întreprindere",
+  "calc-form-type-label-1":"Societatea cu răspundere limitată",
+  "calc-form-type-label-2":"Societatea pe acțiuni",
+  "calc-form-type-label-3":"Organizație necomercială (ONG)",
+  "calc-form-type-label-4":"Reprezentanta permanentă a unui nerezident în Moldova",
+  "calc-form-type-label-5":"Reprezentanta unui nerezident în Moldova",
+  "calc-form-type-label-6":"Alte",
+  "form-vat":"Plătitor de TVA",
+  "calc-form-vat-label-1":"Da",
+  "calc-form-vat-label-2":"Nu",
+  "form-declaration":"Numărul de angajați pentru calcularea și declararea salariilor",
+  "form-staff":"Numărul de angajați pentru serviciul de evidența a resurselor umane (cadre)",
+  "form-security":"Numărul de angajați pentru serviciul de evidența securității si sănătații in munca",
+  "form-import-declaration":"Numărul de documente de achiziții de bunuri / materiale / echipamente în Moldova",
+  "form-import-declaration-number":"Numărul de declarații vamale",
+  "form-import-declaration-positions":"Numărul de poziții vamale din declarație",
+  "form-shop":"Achiziții de bunuri / materiale / echipamente în Moldova",
+  "form-invoice":"Numărul de facturi emise",
+  "form-payment":"Numărul ordinelor de plata emise",
+  "price-result-1":"Costul serviciilor: ",
+  "price-result-2":"Raportarea managementului: ",
+  "price-result-3":"Pregătirea situațiilor financiare anuale in luna martie a anului viitor: ",
+  "tax-1":"Platitor al Impozitului pe venit din activitatea operationala ",
+  "tax-2":"Platitor al impozitului pe venit (impozitare standard)",
+  "tax-3":"Platitor al impozitului unic (resident al parcului pentru tehnologia informatiei)",
+  "price-30":"Asistenta in procesul auditului anual: ",
+  "money-month":" € lunar",
+  "price-warning":"* Aceste calcule sunt orientative și în nici un caz nu sunt o ofertă publică"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
